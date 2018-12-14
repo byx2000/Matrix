@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1544684821 source:e:\programs\cb\matrix\main.cpp
+	<iostream>
+	"Matrix.h"
+
+1541917123 e:\programs\cb\matrix\matrix.h
+	<iostream>
+	<algorithm>
+	<vector>
+	<string>
+	<sstream>
+	<cassert>
+
+1544789764 source:c:\users\byx\desktop\matrix\main.cpp
+	<iostream>
+	"Matrix.h"
+	"UnitTest.h"
+
+1544789749 c:\users\byx\desktop\matrix\matrix.h
+	<iostream>
+	<algorithm>
+	<vector>
+	<string>
+	<sstream>
+	<cassert>
+
+1544789223 c:\users\byx\desktop\matrix\unittest.h
+	<iostream>
+	<fstream>
+	"BigInt.h"
+	"Fraction.h"
+	"Matrix.h"
+
+1544576463 c:\users\byx\desktop\matrix\bigint.h
+	<iostream>
+	<vector>
+	<string>
+	<algorithm>
+	<cmath>
+	<cassert>
+
+1544577288 c:\users\byx\desktop\matrix\fraction.h
+	"BigInt.h"
+
