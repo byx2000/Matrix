@@ -104,6 +104,14 @@ struct Matrix
 		return ss.str();
 	}
 
+	//设置矩阵第i行j列元素为val
+	void setElem(int i, int j, T val)
+	{
+        assert(i >= 0 && i < r);
+        assert(j >= 0 && j < c);
+        m[i][j] = val;
+	}
+
 	//重载==
 	bool operator==(const Matrix<T> &mat) const
 	{

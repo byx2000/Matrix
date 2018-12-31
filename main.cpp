@@ -29,6 +29,7 @@ int main()
     };
 
     Matrix<double> mat((double*)a, 3, 3); //利用二维数组构造矩阵
+    mat.setElem(1, 1, 0); //将矩阵第1行第1列设置为0 (矩阵行数和列数从0开始)
     cout << "mat = " << endl << mat << endl; //输出矩阵
     cout << "mat + mat = " << endl << mat + mat << endl; //加法
     cout << "mat - mat = " << endl << mat - mat << endl; //减法
