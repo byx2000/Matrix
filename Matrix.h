@@ -112,6 +112,24 @@ struct Matrix
         m[i][j] = val;
 	}
 
+	//获取矩阵第i行j列元素
+	T getElem(int i, int j)
+	{
+        assert(i >= 0 && i < r);
+        assert(j >= 0 && j < c);
+        return m[i][j];
+	}
+
+	int getRow()
+	{
+	    return r;
+	}
+
+	int getCol()
+	{
+	    return c;
+	}
+
 	//重载==
 	bool operator==(const Matrix<T> &mat) const
 	{
